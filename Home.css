@@ -1,0 +1,199 @@
+body {
+    background-color: rgb(210, 242, 255);
+}
+
+header {
+  text-align: center center;
+  width: 100%;
+  height: 300px;
+  background-image: url("backImFilteredMore.png");
+  background-color: white;
+}
+
+h1 {
+    text-align: center center;
+}
+
+ul {
+    font-family: Verdana, Geneva, sans-serif;
+    list-style-type: none;
+    margin: left;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 174, 255);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-family: Verdana, Geneva, sans-serif;
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: rgb(0, 128, 179);
+  }
+
+  h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 5em;
+    float: inline-start;
+}
+
+h2{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h3{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.5em;
+  text-decoration: underline;
+  text-align: center;
+}
+p{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+dl{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+dt{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+dd{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32em
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table tr:nth-child(even) {
+  background-color:  #e6ffff;
+}
+
+table tr:nth-child(odd) {
+   background-color: #fff;
+}
+
+table th {
+  background-color: rgb(0, 174, 255);
+  color: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 16px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.card-blue {
+  background-color: rgb(0, 174, 255);
+  padding: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.footer-text{
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 170px;
+  margin-top: 16px;
+  background-image: url("backImFilteredMore.png");
+  background-color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.margin-img {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
+
